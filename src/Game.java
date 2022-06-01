@@ -40,4 +40,16 @@ public class Game {
         System.out.println("GAME OVER!");
     }
 
+    private static void printTableMapping() {
+        char[][] mappingTable = {
+                {'7', '8', '9'},
+                {'4', '5', '6'},
+                {'1', '2', '3'}
+        };
+        printGameTable(mappingTable);
+    }
+
+
+
+
 }
